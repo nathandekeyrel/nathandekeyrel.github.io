@@ -8,6 +8,14 @@ body {
 
 h1 {
     text-align: center;
+    font-size: 72px;
+    background: linear-gradient(to right, #02AABD, #00CDAC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h3 {
+    padding-left: 5px;
 }
 
 p {
@@ -34,4 +42,8 @@ table {
 
 #h3center {
     text-align: center;
+}
+
+img {
+    max-width: 100%;
 }
