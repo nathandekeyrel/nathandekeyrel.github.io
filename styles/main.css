@@ -6,13 +6,17 @@
     --border-color: #e0e0e0;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     font-family: 'Roboto', Arial, sans-serif;
     background-color: var(--background-color);
     color: var(--text-color);
     line-height: 1.6;
     margin: auto;
-    padding: 0;
+    padding: 3px;
     max-width: 50%;
     text-align: justify;
 }
